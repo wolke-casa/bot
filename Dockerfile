@@ -6,7 +6,7 @@ LABEL maintainer="dominic@domm.me" \
 RUN apk update 
 RUN apk add --no-cache git
 
-WORKDIR /opt/miaou
+WORKDIR /opt/wolke/bot
 
 COPY . .
 
