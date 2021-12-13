@@ -20,7 +20,7 @@ To run Wolke Bot use:
 
 ```
 # Run Wolke Bot in detached mode
-$ podman run --name wolke_bot -d wolke_bot:latest
+$ podman run --name wolke_bot --pod wolke -d wolke_bot:latest
 ```
 
 # License
