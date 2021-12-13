@@ -16,7 +16,7 @@ To build Wolke Bot main image use:
 $ podman build -t wolke_bot:latest .
 ```
 
-To run Wolke use:
+To run Wolke Bot use:
 
 ```
 # Run Wolke Bot in detached mode
