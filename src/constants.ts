@@ -40,3 +40,7 @@ export const DiscordPermissions = {
 	[String(Permissions.USE_EXTERNAL_STICKERS)]: "Use External Stickers",
 	[String(Permissions.SEND_MESSAGES_IN_THREADS)]: "Send Messages In Threads",
 };
+
+export enum API_ENDPOINTS {
+	NEW_USER = "/users/new"
+}
